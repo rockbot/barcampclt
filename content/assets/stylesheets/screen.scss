@@ -185,7 +185,7 @@ footer{
 }
 
 #venue{
-	.org{
+	.banner, .org{
 		display: none;
 	}
 	article{
@@ -197,6 +197,9 @@ footer{
 }
 
 #schedule{
+    .banner{
+        display: none;
+    }
 	article{
 		.time {
 			color: #555;
@@ -224,6 +227,9 @@ footer{
 }
 
 #sponsor{
+    .banner{
+        display: none;
+    }
 	article{
 		.xxxxx{
 			margin-bottom: 1.5em
@@ -271,6 +277,9 @@ footer{
 }
 
 #volunteer{
+    .banner {
+        display: none;
+    }
 	ul li{
 		list-style: none;
 	}
@@ -302,7 +311,7 @@ print, 480px, 768px, 992px, 1392px, 2x-retina
 ---------------------------------------------------- */
 // @import "print";
 // @import "480px";
-// @import "768px";
+@import "768px";
 // @import "992px";
 // @import "1382px";
 // @import "2x-retina";
